@@ -786,3 +786,12 @@ TYPEINFO(/obj/item/clothing/shoes/moon)
 	setupProperties()
 		..()
 		setProperty("vault_speed", vault_speed_bonus)
+
+
+
+// Superhero stuff
+/obj/item/clothing/shoes/mantamann
+	name = "Manta's Mann shoes"
+	desc = "He barely even uses them, he only swims."
+	icon_state = "mantamann"
+	burn_possible = FALSE

@@ -879,3 +879,13 @@ ABSTRACT_TYPE(/obj/item/clothing/gloves)
 	setupProperties()
 		..()
 		setProperty("conductivity", 0.75)
+
+
+
+// Superhero stuff
+/obj/item/clothing/gloves/mantamann
+	name = "Manta Mann's glove"
+	desc = "Wow the King of Marines gloves is sure fishy"
+	icon_state = "mantamann"
+	item_state = "mantamann"
+	burn_possible = FALSE

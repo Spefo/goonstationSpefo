@@ -1906,3 +1906,11 @@ ABSTRACT_TYPE(/obj/item/clothing/under/gimmick)
 	desc = "The symbols on this teal jumpsuit are entirely alien to you. It almost speaks to you of an ancient belief lost to time"
 	icon_state = "weirdo"
 	item_state = "weirdo"
+
+// Superhero costumes
+/obj/item/clothing/under/gimmick/mantamann
+	name = "Manta Mann Suit."
+	desc = "The Suit of the King of all Marine life!"
+	icon_state = "mantamann"
+	item_state = "mantamann"
+	burn_possible = FALSE
