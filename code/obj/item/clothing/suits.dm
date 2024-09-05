@@ -2364,3 +2364,15 @@ TYPEINFO(/obj/item/clothing/suit/space/industrial/salvager)
 	item_state = "naturerobe"
 	body_parts_covered = TORSO|LEGS|ARMS
 	hides_from_examine = C_UNIFORM
+
+
+
+
+/obj/item/clothing/suit/rjacket
+	name = "Radical Jacket"
+	desc = "Something feels dreadful holding this jacket."
+	icon = 'icons/obj/clothing/overcoats/item_suit_gimmick.dmi'
+	wear_image_icon = 'icons/mob/clothing/overcoats/worn_suit.dmi'
+	icon_state = "rjacket"
+	item_state = "rjacket"
+	body_parts_covered = TORSO|ARMS
