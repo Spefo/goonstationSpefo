@@ -2273,3 +2273,14 @@ ABSTRACT_TYPE(/obj/item/clothing/head/mushroomcap)
 	icon_state = "rabbithat"
 	item_state = "rabbithat"
 	seal_hair = TRUE
+
+
+/obj/item/clothing/head/biblehead
+	name = "Biblical Abomination"
+	desc = "It's quite a miracle how this book merged with your head."
+	icon = 'icons/obj/clothing/item_hats.dmi'
+	wear_image_icon = 'icons/mob/clothing/head.dmi'
+	inhand_image_icon = 'icons/mob/inhand/hand_headgear.dmi'
+	icon_state = "biblehead"
+	item_state = "biblehead"
+
