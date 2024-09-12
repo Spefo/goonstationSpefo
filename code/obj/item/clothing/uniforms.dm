@@ -1914,3 +1914,20 @@ ABSTRACT_TYPE(/obj/item/clothing/under/gimmick)
 	icon_state = "mantamann"
 	item_state = "mantamann"
 	burn_possible = FALSE
+
+
+
+/obj/item/clothing/under/gimmick/redvest //recolored vests
+	name = "Red Vest"
+	desc = "This makes you feel enraged and stylish.."
+	icon_state = "redvest"
+	item_state = "redvest"
+	c_flags = SLEEVELESS
+
+
+/obj/item/clothing/under/gimmick/blackvest //recolored vests
+	name = "Red Vest"
+	desc = "This makes you feel enraged and stylish.."
+	icon_state = "blackvest"
+	item_state = "blackvest"
+	c_flags = SLEEVELESS

@@ -1698,6 +1698,19 @@ ADMIN_INTERACT_PROCS(/obj/item/reagent_containers/food/drinks/drinkingglass, pro
 	wedge_x_offset = -2
 	wedge_y_offset = 3
 
+/obj/item/reagent_containers/food/drinks/drinkingglass/milkshakecup
+	name = "milkshake cup"
+	icon_state = "milkshakecup"
+	initial_volume = 80
+	reagent_overlay_states = 15
+	umbrella_x_offset = 3
+	umbrella_y_offset = 10
+	decoration_x_offset = 0
+	decoration_y_offset = -2
+	wedge_x_offset = -2
+	wedge_y_offset = 3
+
+
 /obj/item/reagent_containers/food/drinks/drinkingglass/icing
 	name = "icing tube"
 	desc = "Used to put icing on cakes."
