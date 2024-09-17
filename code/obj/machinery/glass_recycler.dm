@@ -165,6 +165,7 @@ TYPEINFO(/obj/machinery/glass_recycler)
 		product_list += new /datum/glass_product("flute", /obj/item/reagent_containers/food/drinks/drinkingglass/flute, 1)
 		product_list += new /datum/glass_product("pitcher", /obj/item/reagent_containers/food/drinks/drinkingglass/pitcher, 2)
 		product_list += new /datum/glass_product("pint", /obj/item/reagent_containers/food/drinks/drinkingglass/pint, 1)
+		product_list += new /datum/glass_product("milkshakecup", /obj/item/reagent_containers/food/drinks/drinkingglass/milkshakecup, 1)
 
 	proc/create(var/type, mob/user)
 		var/datum/glass_product/target_product = null
@@ -229,7 +230,7 @@ TYPEINFO(/obj/machinery/glass_recycler)
 
 /obj/machinery/glass_recycler/chemistry //Chemistry doesn't really need all of the drinking glass options and such so I'm limiting it down a notch.
 	name = "chemistry glass recycler"
-	glass_amt = 15
+	glass_amt = 40
 
 	get_products()
 		product_list += new /datum/glass_product("beaker", /obj/item/reagent_containers/glass/beaker, 1)
@@ -242,9 +243,10 @@ TYPEINFO(/obj/machinery/glass_recycler)
 		product_list += new /datum/glass_product("pitcher", /obj/item/reagent_containers/food/drinks/drinkingglass/pitcher, 2)
 		product_list += new /datum/glass_product("bowl", /obj/item/reagent_containers/food/drinks/bowl, 1) // for making "spicy dip"
 
+
 /obj/machinery/glass_recycler/bar //the bar should not have to scroll through all this chemmy crap to get to the glasses and pitchers they use
 	name = "kitchen glass recycler"
-	glass_amt = 20
+	glass_amt = 40
 
 	get_products()
 		product_list += new /datum/glass_product("pitcher", /obj/item/reagent_containers/food/drinks/drinkingglass/pitcher, 2)
@@ -269,4 +271,5 @@ TYPEINFO(/obj/machinery/glass_recycler)
 		product_list += new /datum/glass_product("largebeaker", /obj/item/reagent_containers/glass/beaker/large, 2)
 		product_list += new /datum/glass_product("bottle", /obj/item/reagent_containers/glass/bottle, 1)
 		product_list += new /datum/glass_product("vial", /obj/item/reagent_containers/glass/vial, 1)
+		product_list += new /datum/glass_product("milkshakecup", /obj/item/reagent_containers/food/drinks/drinkingglass/milkshakecup, 1)
 #undef PLATE_COST

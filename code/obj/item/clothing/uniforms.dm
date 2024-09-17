@@ -1926,8 +1926,8 @@ ABSTRACT_TYPE(/obj/item/clothing/under/gimmick)
 
 
 /obj/item/clothing/under/gimmick/blackvest //recolored vests
-	name = "Red Vest"
-	desc = "This makes you feel enraged and stylish.."
+	name = "Black Vest"
+	desc = "You have the urge to hold your groin while using the binocalurs.."
 	icon_state = "blackvest"
 	item_state = "blackvest"
 	c_flags = SLEEVELESS

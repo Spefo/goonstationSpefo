@@ -40,6 +40,7 @@ ABSTRACT_TYPE(/obj/machinery/vending/jobclothing)
 		product_list += new/datum/data/vending_product(/obj/item/device/pda2/forensic, 2, cost=PAY_TRADESMAN/1.5)
 		product_list += new/datum/data/vending_product(/obj/item/storage/backpack/security, 1)
 		product_list += new/datum/data/vending_product(/obj/item/storage/backpack/satchel/security, 1)
+		product_list += new/datum/data/vending_product(/obj/item/clothing/under/gimmick/redvest, 5)
 
 		product_list += new/datum/data/vending_product(/obj/item/clothing/under/rank/security/april_fools, 1, hidden=1)
 

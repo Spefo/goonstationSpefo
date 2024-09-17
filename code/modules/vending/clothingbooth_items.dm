@@ -195,6 +195,10 @@ ABSTRACT_TYPE(/datum/clothingbooth_item/casual)
 	name = "Red Skull Shirt and Jeans"
 	path = /obj/item/clothing/under/misc/casualjeansskr
 
+/datum/clothingbooth_item/casual/blackvest
+	name = "Black Vest"
+	path = /obj/item/clothing/under/gimmick/blackvest
+
 /datum/clothingbooth_item/casual/casualjeansskb
 	name = "Black Skull Shirt and Jeans"
 	path = /obj/item/clothing/under/misc/casualjeansskb
